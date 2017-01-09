@@ -32,6 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Function.h" />
+		<Unit filename="Graph.h" />
+		<Unit filename="Station.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
