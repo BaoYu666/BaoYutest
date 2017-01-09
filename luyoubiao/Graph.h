@@ -162,5 +162,15 @@ ostream & operator <<(ostream & out,Graph<int,int> & G)
     return cout;
 }
 
+template <class T,class E>
 
+void Graph<T,E> :: PrintJu()
+{
+    for(int i = 0 ; i < 15 ; i ++ )
+    {
+        for(int j = 0 ; j < 15 ; j ++ )
+        cout<<setfill(' ')<<setw(6)<<Edge[i][j]<<" ";
+        cout<<endl;
+    }
+}
 #endif // GRAPH_H_INCLUDED
