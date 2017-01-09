@@ -134,7 +134,8 @@ void InsertWeight()
     while(Sta[k].ID != b && k < 15)  k ++ ;
     if(p == 15 || k == 15)
     { cout<<"端点输入有误!"<<endl<<endl; return ;}
-    G.insertEdge(p,k,w);
+    if(!G.insertEdge(p,k,w))
+    { cout<<"边已存在！插入失败！"<<endl;return; }
     for(int i = 0 ; i < num; i ++ )
         Dijkstra(G,i,dist,path,Sta[i]);
     cout<<"插入成功！"<<endl<<endl<<endl;

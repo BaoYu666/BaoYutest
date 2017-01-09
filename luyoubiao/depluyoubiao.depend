@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1483957165 source:d:\baoyutest\luyoubiao\main.cpp
+=======
+1483956960 source:d:\baoyutest\luyoubiao\main.cpp
+>>>>>>> origin/master
 	<iostream>
 	<windows.h>
 	<fstream>
@@ -10,6 +14,7 @@
 	"Dijkstra.h"
 	"Function.h"
 
+<<<<<<< HEAD
 1483933391 d:\baoyutest\luyoubiao\station.h
 
 1483957165 d:\baoyutest\luyoubiao\graph.h
@@ -17,4 +22,13 @@
 1483957165 d:\baoyutest\luyoubiao\dijkstra.h
 
 1483957165 d:\baoyutest\luyoubiao\function.h
+=======
+1483932612 d:\baoyutest\luyoubiao\station.h
+
+1483956763 d:\baoyutest\luyoubiao\graph.h
+
+1483956913 d:\baoyutest\luyoubiao\dijkstra.h
+
+1483957759 d:\baoyutest\luyoubiao\function.h
+>>>>>>> origin/master
 
