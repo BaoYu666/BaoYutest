@@ -38,7 +38,7 @@ int path[15];
 void FileIn()
 {
     ifstream in;
-    in.open("测试数据.txt");
+    in.open("C:\\Apps\\作业\\计网课设\\计网课设\\测试数据.txt");
     int num = 0;
     //从文件读取数据，先提取出来并保存到temp数组中
     int VerticesNum;
