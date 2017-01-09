@@ -358,7 +358,7 @@ void Print()
 	}
 }
 
-int PrintChoose()
+int PrintChoose()//菜单
 {
 	cout << "1.插入点  2.插入边  3.删除点 "
 		<< " 4.删除边  5.查看图 6.查看路由表" << endl
