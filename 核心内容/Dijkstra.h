@@ -4,6 +4,7 @@ template<class T,class E>
 
 void Dijkstra(Graph<T, E>&G, T v, E dist[], int path[],Station &Sta)//path存放求到的最短路径，dist[j]是v到j的最短路径长度
 {
+	cout << "1.10" << endl;
 	int n = G.NumberOfVertices();
 	bool *S = new bool[n];//S存放已经求出的最短路径的终点
 	int i, j, k;
