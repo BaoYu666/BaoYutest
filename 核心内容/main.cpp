@@ -12,6 +12,7 @@ using namespace std;
 
 using namespace std;
 
+cout<<"2.4"<<endl;
 
 int main()
 {
